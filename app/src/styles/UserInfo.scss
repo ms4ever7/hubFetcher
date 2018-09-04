@@ -1,0 +1,37 @@
+.user-info-container {
+  margin-top: 20px;
+  margin-left: 20px;
+  color: $dark-grey;
+
+  .user-title-wrapper {
+    margin-bottom: 20px;
+  
+    .user-image {
+      border-radius: 5px;
+    }
+
+    .user-name {
+      font-size: 32px;
+      color: $green;
+      margin-left: 25px;
+      text-transform: capitalize;
+    }
+  
+    .user-date {
+      font-size: 28px;
+      font-weight: 400;
+
+    }
+  }
+  .user-date-link {
+    text-decoration: none;
+    color: $green;
+    cursor: pointer;
+  }
+
+  .user-count {
+    margin-top: 10px;
+    font-size: 24px;
+  }
+
+}

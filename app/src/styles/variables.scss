@@ -1,0 +1,35 @@
+$black: #000;
+$white: #fff;
+$almost-white: #f9f9f9;
+$extra-light-grey: #ebebeb;
+$light-grey: #8d8d8d;
+$grey: #797979;
+$dark-grey: #404040;
+$extra-dark-grey: #1d1d1d;
+$green: #64b510;
+$dark-green: darken($green, 10%);
+$purple: #B39DDB;
+$dark-purple: darken($purple, 10%);
+$bloody-red: #cc0000;
+$green: #004D40;
+$dark-green: #00796B;
+$transparent: rgba(0,0,0,0);
+
+$font-family-header: 'Circe';
+$font-family-main: 'Source Sans Pro', Georgia, helvetica, sans-serif;
+
+$font-weight-extralight: 100;
+$font-weight-light: 200;
+$font-weight-regular: 400;
+$font-weight-bold: 700;
+$font-weight-black: 900;
+
+$full-height: 100%;
+$header-height: 85px;
+$container-padding: 1em;
+$container-padding-middle: 3em;
+$container-padding-tiny: 2em;
+
+$breakpoint-tiny: 450px;
+$breakpoint-small: 700px;
+$breakpoint-middle: 1000px;

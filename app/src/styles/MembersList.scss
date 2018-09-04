@@ -1,0 +1,39 @@
+.member-list {
+  margin: 20px;
+  font-size: 20px;
+  width: 40%;
+
+  .member-list-header {
+    color: $extra-dark-grey;
+    margin-bottom: 20px;
+  }
+
+  .member-list-item {
+    padding: 15px 10px;
+    color: $dark-grey;
+    text-transform: capitalize;
+    transition: 0.5s;
+
+    &:hover {
+      transform: translate(10px, 0);
+    }
+
+    .member-image {
+      border-radius: 10px;
+    }
+
+    .member-nickname {
+      margin-left: 10px;
+    }
+
+    &:nth-child(even) {
+      background-color: $extra-light-grey;
+    }
+
+    &:hover {
+      background-color: $purple;
+      color: $white;
+      cursor: pointer;
+    }
+  }
+}

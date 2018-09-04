@@ -1,0 +1,42 @@
+.organization-info-container, .organization-info-empty-header {
+  margin-top: 20px;
+  margin-left: 20px;
+  color: $dark-grey;
+
+  .organization-title-wrapper {
+    width: 75%;
+    border-bottom: 2px solid $dark-grey;
+    margin-bottom: 15px;  
+  
+    .organization-name {
+      font-size: 28px;
+      color: $green;
+      text-transform: capitalize;
+      font-weight: 400;
+    }
+    
+    .organization-date {
+      font-size: 28px;
+      font-weight: 500;
+      color: $dark-grey;
+    }
+  }
+  
+  .organization-count {
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
+  .organization-members {
+    margin-top: 25px;
+    font-size: 20px;
+    color: $dark-green;
+    text-decoration: none !important;
+    
+    &:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+}

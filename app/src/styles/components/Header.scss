@@ -1,0 +1,13 @@
+.header {
+  background-color: $extra-dark-grey;
+  height: $header-height;
+  padding: 20px;
+  color: $white;
+
+
+  .header-title {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: $white;
+  }
+}

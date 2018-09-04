@@ -1,0 +1,25 @@
+.organization-list {
+  margin: 20px;
+  font-size: 20px;
+
+  .organization-list-header {
+    color: $extra-dark-grey;
+    margin-bottom: 20px;
+  }
+
+  .organization-list-item {
+    padding: 15px 10px;
+    color: $dark-grey;
+    text-transform: capitalize;
+
+    &:nth-child(even) {
+      background-color: $extra-light-grey;
+    }
+
+    &:hover {
+      background-color: $purple;
+      color: $white;
+      cursor: pointer;
+    }
+  }
+}
