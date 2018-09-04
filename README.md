@@ -1,7 +1,7 @@
 Welcome to git hub fetcher.
 
 To start working with this app u need: 
- - Install node with version higher than 8.10.0
+ - Install node and use it with version 8.x
   
  - Run yarn install
 
